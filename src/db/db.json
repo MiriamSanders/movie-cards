@@ -1,0 +1,64 @@
+{
+    "movies": [
+        {
+            "id": "m1",
+            "title": "Inception",
+            "year": 2010,
+            "bookmarked": false
+        },
+        {
+            "id": "m2",
+            "title": "Interstellar",
+            "year": 2014,
+            "bookmarked": true
+        },
+        {
+            "id": "m3",
+            "title": "Tenet",
+            "year": 2020,
+            "bookmarked": false
+        },
+        {
+            "id": "m4",
+            "title": "Dune",
+            "year": 2021,
+            "bookmarked": false
+        },
+        {
+            "id": "m5",
+            "title": "The Dark Knight",
+            "year": 2008,
+            "bookmarked": true
+        },
+        {
+            "id": "m6",
+            "title": "Memento",
+            "year": 2000,
+            "bookmarked": false
+        },
+        {
+            "id": "m7",
+            "title": "The Prestige",
+            "year": 2006,
+            "bookmarked": true
+        },
+        {
+            "id": "m8",
+            "title": "Avatar",
+            "year": 2009,
+            "bookmarked": false
+        },
+        {
+            "id": "m9",
+            "title": "The Matrix",
+            "year": 1999,
+            "bookmarked": true
+        },
+        {
+            "id": "m10",
+            "title": "Gladiator",
+            "year": 2000,
+            "bookmarked": false
+        }
+    ]
+}
