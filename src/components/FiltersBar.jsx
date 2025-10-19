@@ -7,10 +7,6 @@ import useMoviesStore from './movieStore'
 function FiltersBar() {
     const { filter, setFilter } = useMoviesStore();
 
-    const handleFilterChange = () => {
-       
-            setFilter(!filter);
-    };
 
     return (
         <Paper elevation={2} sx={{ p: 2, mb: 3 }}>
@@ -18,7 +14,7 @@ function FiltersBar() {
                 <ToggleButtonGroup
                     value={filter}
                     exclusive
-                    onChange={handleFilterChange}
+                    onChange={() => setFilter(!filter)}
                     aria-label="movie filter"
                     color="primary"
                 >

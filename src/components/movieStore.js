@@ -2,13 +2,10 @@ import { create } from 'zustand';
 import db from '../db/db.json';
 
 const useMoviesStore = create((set, get) => ({
-    // all movies from db.json
-    movies: db.movies,       // all movies
-    filter: false,           // bookmark filter
+    movies: db.movies,
+    filter: false,
     bookmarkedCount: db.movies.filter(movie => movie.bookmarked).length,
-    // Set filter state
     setFilter: (value) => set({ filter: value }),
-    // Get a movie by ID, respecting the filter
     getMovieById: (id) => {
         const movie = get().movies.find(m => m.id === id);
         if (!movie) return undefined;
